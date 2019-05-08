@@ -16,4 +16,14 @@ Attributes:
 A description on files in this repository:
 1. data_vis.py : Data visulaization. Part 1 visualises how the different attributes of the different categories vary. Part 2 is the scatter plot of length vs width with every category ploted in different colour.
 
-2. 
+2. classification.py : The following classification algorithms are used 
+-- Logistic Regression
+-- Gaussian Naive Bayes
+-- Support Vector Machine
+-- Decision Tree
+-- Random Forest
+-- K-neighbour 
+
+The algorithms are compared using precision, recall and accuracy.
+
+3. clustering.py: k- mean clustering.

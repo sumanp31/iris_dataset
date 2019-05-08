@@ -15,25 +15,19 @@ df = pd.read_csv("iris.csv")
 df.head()
 df.info()
 
+
 sns.catplot('name','s_length',data= df)
 sns.catplot('name','s_width',data= df)
 sns.catplot('name','p_length',data= df)
 sns.catplot('name','p_width',data= df)
 
-plt.show()
-
-sns.set()
+fig = plt.figure(1, figsize=(4, 3))
+plt.subplot(2,2,1)
 sns.scatterplot(x="s_length", y="s_width",hue="name", style="name", data=df)
-plt.show()
-
-sns.set()
+plt.subplot(2,2,2)
 sns.scatterplot(x="s_length", y="p_length",hue="name", style="name", data=df)
-plt.show()
-
-sns.set()
+plt.subplot(2,2,3)
 sns.scatterplot(x="s_width", y="p_width",hue="name", style="name", data=df)
-plt.show()
-
-sns.set()
+plt.subplot(2,2,4)
 sns.scatterplot(x="p_length", y="p_width",hue="name", style="name", data=df)
 plt.show()

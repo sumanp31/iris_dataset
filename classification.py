@@ -29,6 +29,7 @@ print(confusion_matrix(y_test, pred_logreg))
 print(classification_report(y_test, pred_logreg))
 print(accuracy_score(y_test, pred_logreg))
 
+
 from sklearn.naive_bayes import GaussianNB
 gnb = GaussianNB()
 gnb.fit(X_train, y_train)

@@ -24,6 +24,6 @@ A description on files in this repository:
 -- Random Forest
 -- K-neighbour 
 
-The algorithms are compared using precision, recall and accuracy.
+   The algorithms are compared using precision, recall and accuracy.
 
 3. clustering.py: k- mean clustering.

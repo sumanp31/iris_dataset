@@ -14,10 +14,10 @@ warnings.filterwarnings("ignore", category=FutureWarning)
 df = pd.read_csv("iris.csv")
 
 from sklearn.model_selection import train_test_split
-X_train, X_test, y_train, y_test = train_test_split(df.drop('name',axis=1), df['name'], test_size=0.60, random_state=101)
+X_train, X_test, y_train, y_test = train_test_split(df.drop('name',axis=1), df['name'], test_size=0.001, random_state=101)
 
-X_train.info()
-X_test.info()
+print type(X_train), type(X_test), type(y_train), type(y_test)
+
 
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
 
@@ -28,7 +28,6 @@ pred_logreg = logreg.predict(X_test)
 print(confusion_matrix(y_test, pred_logreg))
 print(classification_report(y_test, pred_logreg))
 print(accuracy_score(y_test, pred_logreg))
-
 
 from sklearn.naive_bayes import GaussianNB
 gnb = GaussianNB()

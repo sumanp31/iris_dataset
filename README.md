@@ -34,10 +34,10 @@ The algorithms are compared using precision, recall and accuracy.
 
 ### Dataset Visualisation
 #### Checking each attribute for each of the category.
-![ ](/home/suman/Figure_3.png)
-![](/home/suman/Figure_4.png) 
-![](/home/suman/Figure_5.png) 
-![](/home/suman/Figure_2.png) 
+![](https://github.com/sumanp31/iris_dataset/blob/master/Figure_3.png)
+![](https://github.com/sumanp31/iris_dataset/blob/master/Figure_4.png) 
+![](https://github.com/sumanp31/iris_dataset/blob/master/Figure_5.png) 
+![](https://github.com/sumanp31/iris_dataset/blob/master/Figure_2.png) 
 As it can be seen from the above 4 images, the *iris-setosa* is very distinctive depending on petal lenght and width. However, the *iris-versicolor* and the *iris-virginica* are not distinguishable from each other.
 
 #### Scatter plot for distribution of different category for different combination of attribute
@@ -48,7 +48,7 @@ From the above 4 images, It can be seen that *Iris-setosa* are completely differ
 The dataset was split into train and test dataset. 20% of dataset was randomly selected and used for testing. depending on the comparision between predicted category and original output, the following result was achieved.
 #### Classification
 1.**Linear Regression**
-![](https://github.com/sumanp31/iris_dataset/blob/master/Figure_3.png) 
+ 
 2.**Naive Bayes**
 ![](/home/suman/Pictures/N_Bayes.png) 
 3.**SVM**

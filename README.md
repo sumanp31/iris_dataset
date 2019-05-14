@@ -48,7 +48,7 @@ From the above 4 images, It can be seen that *Iris-setosa* are completely differ
 The dataset was split into train and test dataset. 20% of dataset was randomly selected and used for testing. depending on the comparision between predicted category and original output, the following result was achieved.
 #### Classification
 1.**Linear Regression**
-![](/home/suman/Pictures/L_reg.png) 
+![](https://github.com/sumanp31/iris_dataset/blob/master/Figure_3.png) 
 2.**Naive Bayes**
 ![](/home/suman/Pictures/N_Bayes.png) 
 3.**SVM**

@@ -58,4 +58,4 @@ The dataset was split into train and test dataset. 20% of dataset was randomly s
 5.**Decision Tree**
 ![](https://github.com/sumanp31/iris_dataset/blob/D_Tree.png) 
 6.**Random Forest**
-![](https://github.com/sumanp31/iris_dataset/blob/R_Forest.png) 
+![](https://github.com/sumanp31/iris_dataset/blob/master/R_Forest.png) 

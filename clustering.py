@@ -53,8 +53,10 @@ sns.scatterplot(x="p_length", y="p_width",hue="name", style="name", data=df)
 plt.show()
 
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
-
+print "confusion_matrix"
 print(confusion_matrix(y, df.iloc[:, 4]))
+print "classification_report"
 print(classification_report(y, df.iloc[:, 4]))
+print "accuracy_score"
 print(accuracy_score(y, df.iloc[:, 4]))
 

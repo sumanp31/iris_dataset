@@ -50,13 +50,23 @@ The dataset was split into train and test dataset. 20% of dataset was randomly s
 1.**Linear Regression**
 
  ![](https://github.com/sumanp31/iris_dataset/blob/master/L_reg.png) 
+ 
 2.**Naive Bayes**
+
 ![](https://github.com/sumanp31/iris_dataset/blob/master/N_Bayes.png) 
+
 3.**SVM**
+
 ![](https://github.com/sumanp31/iris_dataset/blob/master/svm.png) 
+
 4.**K neighbours**
+
 ![](https://github.com/sumanp31/iris_dataset/blob/k_neigh.png) 
+
 5.**Decision Tree**
+
 ![](https://github.com/sumanp31/iris_dataset/blob/D_Tree.png) 
+
 6.**Random Forest**
+
 ![](https://github.com/sumanp31/iris_dataset/blob/master/R_Forest.png) 

@@ -21,7 +21,7 @@ sns.catplot('name','s_width',data= df)
 sns.catplot('name','p_length',data= df)
 sns.catplot('name','p_width',data= df)
 
-fig = plt.figure(1, figsize=(4, 3))
+fig = plt.figure(5, figsize=(4, 3))
 plt.subplot(2,2,1)
 sns.scatterplot(x="s_length", y="s_width",hue="name", style="name", data=df)
 plt.subplot(2,2,2)

@@ -34,20 +34,33 @@ The algorithms are compared using precision, recall and accuracy.
 
 ### Dataset Visualisation
 #### Checking each attribute for each of the category.
+<<<<<<< HEAD
 ![ ](/home/suman/Figure_3.png)
 ![](/home/suman/Figure_4.png) 
 ![](/home/suman/Figure_5.png) 
 ![](/home/suman/Figure_2.png) 
+
 As it can be seen from the above 4 images, the *iris-setosa* is very distinctive depending on petal lenght and width. However, the *iris-versicolor* and the *iris-virginica* are not distinguishable from each other.
 
 #### Scatter plot for distribution of different category for different combination of attribute
 ![](/home/suman/Figure_1.png) 
+=======
+![](https://github.com/sumanp31/iris_dataset/blob/master/Figure_3.png)
+![](https://github.com/sumanp31/iris_dataset/blob/master/Figure_4.png) 
+![](https://github.com/sumanp31/iris_dataset/blob/master/Figure_5.png) 
+![](https://github.com/sumanp31/iris_dataset/blob/master/Figure_2.png) 
+As it can be seen from the above 4 images, the *iris-setosa* is very distinctive depending on petal lenght and width. However, the *iris-versicolor* and the *iris-virginica* are not distinguishable from each other.
+
+#### Scatter plot for distribution of different category for different combination of attribute
+![](https://github.com/sumanp31/iris_dataset/blob/master/Figure_1.png) 
+>>>>>>> 8787b072c15355b944a0afeb5549a4dfe261d70e
 From the above 4 images, It can be seen that *Iris-setosa* are completely different. However, the *iris-versicolor* and the *iris-virginica* are not distinguishable from each other. for most of the parameter combination except for sepal length vs petal length.
 
 ### Algorithm Output
 The dataset was split into train and test dataset. 20% of dataset was randomly selected and used for testing. depending on the comparision between predicted category and original output, the following result was achieved.
 #### Classification
 1.**Linear Regression**
+<<<<<<< HEAD
 ![](/home/suman/Pictures/L_reg.png) 
 2.**Naive Bayes**
 ![](/home/suman/Pictures/N_Bayes.png) 
@@ -59,3 +72,27 @@ The dataset was split into train and test dataset. 20% of dataset was randomly s
 ![](/home/suman/Pictures/D_Tree.png) 
 6.**Random Forest**
 ![](/home/suman/Pictures/R_Forest.png) 
+=======
+
+ ![](https://github.com/sumanp31/iris_dataset/blob/master/L_reg.png) 
+ 
+2.**Naive Bayes**
+
+![](https://github.com/sumanp31/iris_dataset/blob/master/N_Bayes.png) 
+
+3.**SVM**
+
+![](https://github.com/sumanp31/iris_dataset/blob/master/svm.png) 
+
+4.**K neighbours**
+
+![](https://github.com/sumanp31/iris_dataset/blob/master/k_neigh.png) 
+
+5.**Decision Tree**
+
+![](https://github.com/sumanp31/iris_dataset/blob/master/D_Tree.png) 
+
+6.**Random Forest**
+
+![](https://github.com/sumanp31/iris_dataset/blob/master/R_Forest.png) 
+>>>>>>> 8787b072c15355b944a0afeb5549a4dfe261d70e

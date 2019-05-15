@@ -71,8 +71,7 @@ The dataset was split into train and test dataset. 20% of dataset was randomly s
 
 ![](https://github.com/sumanp31/iris_dataset/blob/master/Plots/R_Forest.png) 
 
-
-####Clustering
+#### Clustering
 1.**K-mean**
 
 ![](https://github.com/sumanp31/iris_dataset/blob/master/Plots/k_mean.png)

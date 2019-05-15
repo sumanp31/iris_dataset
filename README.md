@@ -34,14 +34,14 @@ The algorithms are compared using precision, recall and accuracy.
 
 ### Dataset Visualisation
 #### Checking each attribute for each of the category.
-![](https://github.com/sumanp31/iris_dataset/blob/master/Figure_3.png)
-![](https://github.com/sumanp31/iris_dataset/blob/master/Figure_4.png) 
-![](https://github.com/sumanp31/iris_dataset/blob/master/Figure_5.png) 
-![](https://github.com/sumanp31/iris_dataset/blob/master/Figure_2.png) 
+![](https://github.com/sumanp31/iris_dataset/blob/master/Plots/Figure_3.png)
+![](https://github.com/sumanp31/iris_dataset/blob/master/Plots/Figure_4.png) 
+![](https://github.com/sumanp31/iris_dataset/blob/master/Plots/Figure_5.png) 
+![](https://github.com/sumanp31/iris_dataset/blob/master/Plots/Figure_2.png) 
 As it can be seen from the above 4 images, the *iris-setosa* is very distinctive depending on petal lenght and width. However, the *iris-versicolor* and the *iris-virginica* are not distinguishable from each other.
 
 #### Scatter plot for distribution of different category for different combination of attribute
-![](https://github.com/sumanp31/iris_dataset/blob/master/Figure_1.png) 
+![](https://github.com/sumanp31/iris_dataset/blob/master/Plots/Figure_1.png) 
 From the above 4 images, It can be seen that *Iris-setosa* are completely different. However, the *iris-versicolor* and the *iris-virginica* are not distinguishable from each other. for most of the parameter combination except for sepal length vs petal length.
 
 ### Algorithm Output

@@ -30,7 +30,7 @@ The algorithms are compared using precision, recall and accuracy.
 
 3.** clustering.py**: k- mean clustering.
 
-## ***Report***
+## **REPORT**
 
 ### Dataset Visualisation
 #### Checking each attribute for each of the category.
